@@ -18,7 +18,11 @@ This is the [openscenegraph](https://www.openscenegraph.com/) make sources for i
 
    (While running on iOS devices, maybe you need to remove the link MacOSSDK in XCode build settings. )
 
+
+
 ## Other Info
+
+#### Some Helpful Links
 
 Cross-Platform-guide
 
@@ -36,6 +40,18 @@ Sample Data
 
 https://github.com/openscenegraph/OpenSceneGraph-Data
 
+
+
+#### Local Document Generate
+
+According to this issue https://github.com/openscenegraph/OpenSceneGraph/issues/1063
+
+Turn on CMake option `BUILD_DOCUMENTATION`, and run `make doc_openscenegraph`
+
+It also refer an online document : https://codedocs.xyz/openscenegraph/OpenSceneGraph
+
+
+
 ## ThirdParty Official Download Site
 
 * Proj	
@@ -47,6 +63,8 @@ https://github.com/openscenegraph/OpenSceneGraph-Data
   https://gdal.org
 
   (gdal build guide for iOS : https://gis.stackexchange.com/questions/434514/build-gdal-3-x-for-ios)
+
+
 
 ## Other Tips
 
@@ -66,4 +84,4 @@ https://github.com/openscenegraph/OpenSceneGraph-Data
 
 * Other Compile failed
 
-​		Add `OSG_LIBRARY_STATIC` to Preprocessor Macros may help.
+  Add `OSG_LIBRARY_STATIC` to Preprocessor Macros may help.
